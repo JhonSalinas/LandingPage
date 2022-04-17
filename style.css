@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 .upHeader, .downHeader{
     margin: 0 9% 0 14%;
@@ -13,6 +14,7 @@
 .upHeader {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .headerLogo {
     font-size: 24px;
@@ -37,6 +39,9 @@ h1 {
 .mainText {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
 }
 .buttonOne {
     background-color: #3882F6;
@@ -46,6 +51,6 @@ h1 {
     padding: 5px 22px;
     border: 0;
 }
-.header .downHeader .mainText {
-    justify-content: center;
+.mainParagraph {
+    color: #E5E7EB;
 }
