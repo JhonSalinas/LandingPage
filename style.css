@@ -35,6 +35,7 @@ h1 {
 .downHeader{
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 }
 .mainText {
     display: flex;
@@ -75,6 +76,9 @@ h2 {
     width: 150px;
     border: solid 3px #3882F6;
 }
+.mainImage {
+    border-radius: 5px;
+}
 .profileContainer{
     width: 150px;
 }
@@ -96,4 +100,31 @@ h2 {
 .citation {
     margin: -30px 9% 0 14%;
     text-align: right;
+}
+.fourthdiv {
+    margin: 80px 9% 60px 14%;
+}
+.message {
+    background-color: #3882F6;
+    padding: 60px 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textmessage {
+    color: white;
+}
+.bttntwo {
+    border: solid 2px white; 
+    padding: 5px 30px;
+}
+h3 {
+    font-size: 22px;
+}
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 40px 0;
 }
