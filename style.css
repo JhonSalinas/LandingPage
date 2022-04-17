@@ -3,7 +3,7 @@
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
-.upHeader, .downHeader{
+.upHeader, .downHeader, .collage{
     margin: 0 9% 0 14%;
 }
 .header {
@@ -53,4 +53,32 @@ h1 {
 }
 .mainParagraph {
     color: #E5E7EB;
+}
+.seconddiv {
+    background-color: whitesmoke;
+    padding: 40px 0;
+}
+h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 0 0 30px 0;
+}
+.collage {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.profileimg {
+    border-radius: 20px;
+    width: 150px;
+    border: solid 3px #3882F6;
+}
+.profileContainer{
+    width: 150px;
+}
+.pdescription {
+    text-align:center;
+    color: #4b4b4d;
 }
