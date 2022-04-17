@@ -3,7 +3,7 @@
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
-.upHeader, .downHeader, .collage{
+.upHeader, .downHeader, .collage {
     margin: 0 9% 0 14%;
 }
 .header {
@@ -81,4 +81,19 @@ h2 {
 .pdescription {
     text-align:center;
     color: #4b4b4d;
+}
+.thirddiv {
+    background-color: #E5E7EB;
+    padding: 0 0 40px 0;
+}
+.phrase {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 50px 0;
+    margin: 0 9% 0 14%;
+}
+.citation {
+    margin: -30px 9% 0 14%;
+    text-align: right;
 }
